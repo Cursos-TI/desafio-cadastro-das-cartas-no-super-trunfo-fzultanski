@@ -36,16 +36,6 @@ int main() {
     printf("Número do Pontos Turísticos:\n");
     scanf("%d", &nr_ponto_turistico_1);
 
-    // Exibicao das informacoes da carta 1
-    printf("\nCARTA 1\n");
-    printf("Estado.....................: %c\n", cd_estado_1);
-    printf("Código.....................: %s\n", cd_carta_1);
-    printf("Nome da Cidade.............: %s\n", nm_cidade_1);
-    printf("População..................: %d\n", nr_populacao_1);
-    printf("Área.......................: %f\n", nr_area_1);
-    printf("PIB........................: %f\n", vl_pib_1);
-    printf("Número de Pontos Turísticos: %d\n\n", nr_ponto_turistico_1);
-
     printf("Digite as Informações da CARTA 2:\n\n");
 
     // Leitura das informacoes da carta 2 do teclado
@@ -70,14 +60,24 @@ int main() {
     printf("Número do Pontos Turísticos:\n");
     scanf("%d", &nr_ponto_turistico_2);
 
+    // Exibicao das informacoes da carta 1
+    printf("\nCARTA 1\n");
+    printf("Estado.....................: %c\n", cd_estado_1);
+    printf("Código.....................: %s\n", cd_carta_1);
+    printf("Nome da Cidade.............: %s\n", nm_cidade_1);
+    printf("População..................: %d\n", nr_populacao_1);
+    printf("Área.......................: %.2f km²\n", nr_area_1);
+    printf("PIB........................: %.2f bilhões de reais\n", vl_pib_1);
+    printf("Número de Pontos Turísticos: %d\n", nr_ponto_turistico_1);
+
     // Exibicao das informacoes da carta 2
     printf("\nCARTA 2\n");
     printf("Estado.....................: %c\n", cd_estado_2);
     printf("Código.....................: %s\n", cd_carta_2);
     printf("Nome da Cidade.............: %s\n", nm_cidade_2);
     printf("População..................: %d\n", nr_populacao_2);
-    printf("Área.......................: %f\n", nr_area_2);
-    printf("PIB........................: %f\n", vl_pib_2);
+    printf("Área.......................: %.2f km²\n", nr_area_1);
+    printf("PIB........................: %.2f bilhões de reais\n", vl_pib_1);
     printf("Número de Pontos Turísticos: %d\n\n", nr_ponto_turistico_2);
 
     return 0;
