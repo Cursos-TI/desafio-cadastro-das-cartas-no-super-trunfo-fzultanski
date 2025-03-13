@@ -61,8 +61,8 @@ int main() {
     scanf("%d", &nr_ponto_turistico_2);
 
     // Calcula densidade populacional das cartas
-    nr_densidade_1 = (float) nr_area_1 / nr_populacao_1;
-    nr_densidade_2 = (float) nr_area_2 / nr_populacao_2;
+    nr_densidade_1 = (float) nr_populacao_1 / nr_area_1;
+    nr_densidade_2 = (float) nr_populacao_2 / nr_area_2;
 
     // Calcula PIB per capita das cartas
     vl_pib_per_capita_1 = (float) vl_pib_1 / nr_populacao_1;
